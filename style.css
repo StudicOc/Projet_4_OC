@@ -27,11 +27,6 @@ section#contact .container-contact {
     padding: 30px 10px;
     border: 2px solid #462100;
     box-sizing: border-box;/*Eviterquelepaddingpousselecontainer*/
-     border-radius: 11rem;
-    -webkit-border-radius: 11rem;
-    -moz-border-radius: 11rem;
-    -ms-border-radius: 11rem;
-    -o-border-radius: 11rem;
 }
 /* Mettre en forme le formulaire */
 section#contact .container-contact form {
