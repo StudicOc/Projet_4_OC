@@ -14,8 +14,8 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<llink   rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<llink  rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link   rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link  rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 	
     
@@ -29,6 +29,8 @@
 
      </head> 
 <body>
+
+<header>
 <!-- Principal conteneur -->
 <div class="page-container">
     
@@ -61,9 +63,16 @@
 		</nav>
 	</div>
 </div>
+</div>
+</header>
 <!-- bloc-0 END -->
 
+
+<main>
+
+
 <!-- bloc-6 -->
+<section>
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -81,16 +90,15 @@
 	</div>
 </div>
 <!-- bloc-6 END -->
-
+</section>
 
 <section id="contact">
     <div class="container-contact">
 <div>
  <h2 class="color-contrast">Une question ? Une demande spécifique ?</h2>
-
 </div>
-	<form id="form_1" novalidate success-msg="Your message has been sent." 
-	fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+
+	<form id="form_1">
                   <div class="form-group">
 						<label>
 							Nom
@@ -117,7 +125,7 @@
 					<div class="form-group">
 						<label>
 							Entrer le sujet
-						</label><textarea id="" class="form-control" rows="4" cols="50" required="" 
+						</label><textarea id="sujet" class="form-control" rows="4" cols="50" required="" 
 						aria-label="ecrivez le sujet"></textarea>
 					</div> 
 
@@ -127,15 +135,16 @@
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required="" 
 						aria-label="ecrivez votre message"></textarea>
 					</div> 
-                <button aria-label=" envoyer votre demande"name="submit">Envoyer</button>
+                <button aria-label=" envoyer votre demande" name="submit">Envoyer</button>
 </form>
 </div>
 </section>
 
-
+</main>
 
 
 <!-- bloc-7 -->
+<footer>
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -189,11 +198,12 @@
 		</div>
 	</div>
 </div>
+
 <!-- Footer - bloc-8 END -->
 
-</div>
+
 <!-- Principal conteneur END -->
-    
+    </footer>
 
 </body>
 </html>
