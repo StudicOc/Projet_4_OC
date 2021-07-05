@@ -7,7 +7,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.bloc-bg-texture::before {
+    content: "";
+    background-size: 2px 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
+.texture-paper::before {
+    background: url("img/texture-paper.webp");
+    background-size: 280px 280px;
+}
 /* Ajout css*/
 .navbar-collapse {
         overflow-x: hidden;
@@ -678,7 +691,7 @@ a[data-lightbox]:hover img {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -1025,9 +1038,16 @@ h4 {
  .bloc-mob-center-text {
         text-align: center;
     }
-    .img-responsive {
+   .img-responsive {
         margin: auto;
     }
+
+}
+@media (max-width: 600px) {
+     .img-responsive {
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 400px) {
