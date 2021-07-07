@@ -163,7 +163,6 @@ a:hover {
     position: relative;
 }
 
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -200,16 +199,13 @@ a:hover {
     background: top no-repeat;
 }
 
-
 .b-parallax {
     background-attachment: fixed;
 }
 
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
-
 
 
 
@@ -232,7 +228,6 @@ a:hover {
 }
 
 
-
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
@@ -242,7 +237,6 @@ a:hover {
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
-
 
 
 .d-bloc .panel .a-btn:hover {
@@ -259,7 +253,6 @@ a:hover {
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
 }
-
 
 
 
@@ -280,7 +273,6 @@ a:hover {
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
-
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
@@ -669,7 +661,6 @@ a[data-lightbox]:hover img {
 
 
 
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -687,7 +678,6 @@ a[data-lightbox]:hover img {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -771,7 +761,6 @@ h4 {
     text-decoration: underline!important;
 }
 
-
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
@@ -834,7 +823,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
 
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1062,3 +1050,5 @@ h4 {
 }
     
 }
+
+
