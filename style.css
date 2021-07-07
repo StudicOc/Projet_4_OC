@@ -36,14 +36,14 @@ body {
 h1, h2, h3, h4, p {
     color: black;
 }
-.rezise-p {
+.rezise-p { /* Réajustement des tailles de paragraphe accessibilité */
     font-size: 1.3em
 }
 .section-about {
     position: absolute;
     z-index: 1;
 }
-
+ /* Réajustement du formulaire , design et accessibilité*/
 section#contact {
     padding: 100px 0; /* réajustement des inputs + responsiv*/
     padding: 100px 0;
@@ -53,7 +53,7 @@ section#contact {
 
 section#contact .container-contact {
     max-width: 700px;
-    box-sizing: border-box;/*Eviterquelepaddingpousselecontainer*/
+    box-sizing: border-box;/*Eviter que le padding pousse le container*/
     
 }
 section#contact .container-contact #form_1 {
